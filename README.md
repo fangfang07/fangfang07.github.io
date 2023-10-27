@@ -6,7 +6,7 @@
 
 - HTML-based (reveal.js, xaringan, etc.). 
 
-The slides from [Latex Link](TestRCode.Rnw) and [HTML Link](HTML_File.html)
+The slides from [Beamer Link](TestRCode.Rnw) and [HTML Link](HTML_File.html)
 
 
 ### Part 2: CV Link
