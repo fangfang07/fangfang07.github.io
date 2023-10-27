@@ -1,0 +1,31 @@
+---
+title: "STAT850 - Homework10"
+author: "Fangfang Zhang"
+date: ""
+output: revealjs::revealjs_presentation
+---
+
+# Introduction
+
+I am Fangfang Zhang, a Ph.D. student in the Department of Statistics at the University of Nebraska-Lincoln. I was born on 1992, July 23rd in Northeastern China. It is my second year of my PhD program but it is my first year at UNL. I hope to complete my Ph.D. program by 2028.
+
+# Animal
+
+<img src="Chip 'n' Dale.png" alt="Cute Chinchilla" width="30%"/>
+
+
+# Plot
+
+```{r echo=FALSE, message=FALSE}
+library(mclust)
+library(ggplot2)
+ggplot(data = banknote, aes(Status)) +
+  geom_bar(aes(fill = Status)) 
+```
+
+
+# Link to CV
+
+[Go to Fangfang's CV](Fangfang_CV.pdf)
+
+For more details, please see my CV [here](Fangfang_CV.pdf).

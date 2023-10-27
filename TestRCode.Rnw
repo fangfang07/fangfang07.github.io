@@ -1,0 +1,52 @@
+\documentclass{beamer}
+\usepackage{hyperref} % Necessary for creating hyperlinks
+%Information to be included in the title page:
+\title{STAT850 - Homework10}
+\author{Fangfang Zhang}
+\institute{University of Nebraska - Lincoln}
+\date{2023/10/24}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Introdcution} % Slide 1: Introduction
+I am Fangfang Zhang, a Ph.D. student in the Department of Statistics at the University of Nebraska-Lincoln. I was born on 1992, July 23rd in Northeastern China. It is my second year of my PhD program but it is my first year at UNL. I hope to complete my Ph.D. program by 2028.
+\end{frame}
+
+\begin{frame} % Slide 2: Animal
+\frametitle{Animal Picture}
+% Include a figure
+\begin{figure}[h]
+\centering
+\includegraphics[width=.5\textwidth]{Chip 'n' Dale}
+\caption{Chinchilla}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Plot} % Slide 3: Plot
+Homework 8 Figure
+
+<<plot-code, echo=FALSE, message = FALSE, out.width="50%", fig.cap="My Favorite Plot From Homework 5">>=
+library(mclust)
+library(ggplot2)
+ggplot(data = banknote, aes(Status)) +
+  geom_bar(aes(fill = Status)) 
+
+@
+\end{frame}
+
+\begin{frame}
+\frametitle{CV Link} % Slide 4: Link to CV
+This is the link to my CV.
+\begin{center}
+    \href{Fangfang_CV.pdf}{here} 
+\end{center}
+\end{frame}
+
+\end{document}
+
+
+
