@@ -11,6 +11,6 @@ The slides from [Latex Link](TestRCode.Rnw) and [HTML Link](HTML_File.html)
 
 ### Part 2: CV Link
 
-[The link to the CV](https://www.overleaf.com/latex/templates/tagged/cv)
+[The link to the CV](Fangfang_CV.pdf)
 
 
