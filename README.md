@@ -1,3 +1,16 @@
-# fangfang07.github.io-
+## fangfang07.github.io-
 
-GitHub Site.
+### Part 1: Two Slides
+
+- Beamer/LaTeX 
+
+- HTML-based (reveal.js, xaringan, etc.). 
+
+The slides from [Latex Link](TestRCode.Rnw) and [HTML Link](HTML_File.html)
+
+
+### Part 2: CV Link
+
+[The link to the CV](https://www.overleaf.com/latex/templates/tagged/cv)
+
+
